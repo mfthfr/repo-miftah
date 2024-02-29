@@ -1,0 +1,198 @@
+/* Header */
+.header{
+    background-color: #12372A;
+}
+
+.header h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40pt;
+    color: #FBFADA;
+}
+
+@keyframes blinker{
+    50%{
+        opacity: 0;
+    }
+}
+
+.blink{
+    animation: blinker 1.5s linear infinite;
+}
+
+/* Navbar */
+.navbar{
+    background-color: #436850;
+}
+
+.navbar table{
+    margin: auto;
+}
+
+.navbar tr{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navbar tr td{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.navbar a:hover{
+    background-color: #FBFADA;
+}
+
+.navbar a, a.item:link{
+    text-decoration: none;
+    background-color: #ADBC9F;
+    border-radius: 5px;
+    font-size: 15pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 3px;
+    color: black;
+}
+
+/* sidebar */
+.sidebar{
+    background-color: #FBFADA;
+}
+
+.sidebar fieldset, legend{
+    border-radius: 10px;
+}
+
+.sidebar legend{
+    padding: 2px;
+    background-color: cadetblue;
+    color:#FBFADA;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.sidebar a{
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* content home */
+.home{
+    background-color: #ADBC9F;
+}
+
+.home h1, p{
+    font-size: 30pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.home img{
+    width: 20%;
+}
+
+p.klik, a{
+    font-size: 15pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.biodata{
+    margin-top: 100px;
+}
+
+
+.biodata li a{
+    font-size: 12px;
+    text-decoration: underline;
+    color: blue;
+}
+
+.biodata p{
+    font-size: 12px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.biodata a{
+    text-align: left;
+}
+
+/* content mystudy */
+.study{
+    background-color: #ADBC9F;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.study table{
+    margin: auto;
+    width: 70%;
+    border: 1px solid black;
+}
+
+.study h1{
+    text-align: center;
+    font-size: 20pt;
+    padding: 20px;
+}
+
+.study table thead tr th{
+    background-color: cadetblue;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.study tbody tr td{
+    text-align: center;
+    border: 1px solid black;
+}
+
+.study tr:hover{
+    background-color:antiquewhite;
+    cursor:pointer;
+}
+
+/* content gallery */
+.gallery{
+    background-color: #ADBC9F;
+}
+
+.gallery table{
+    border: 1px solid black;
+    margin: auto;
+    width: 70%;
+}
+
+.gallery table thead tr th{
+    background-color:cadetblue;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.gallery table tbody tr td{
+    /* background-color: cadetblue; */
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12;
+}
+
+.gallery td.deskripsi{
+    text-align: justify;
+    width: 40%;
+}
+/* footer */
+.footer{
+    background-color: #436850;
+    text-align: center;
+    padding: 5px;
+}
+
+.footer font{
+    color: #ADBC9F;
+    font-size: 10pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
